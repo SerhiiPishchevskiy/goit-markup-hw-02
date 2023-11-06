@@ -7,5 +7,47 @@ body {
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: var(--color-secondary-text);
+        }
+.header {
+    height: 72px;
+    flex-shrink: 0;
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+}
+<!--site-header-->
+.logo-header-blue {
+        color: var(--IRIS, #4D5AE5);
+            font-family: Raleway;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 21px;
+            letter-spacing: 0.54px;
+            text-transform: uppercase;
+}
+.logo-header {
+        color: var(--NAVY-BLUE, #2E2F42);
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+<!--nav-list-->
+.site-nav-list {
         
+
+}
+
+.footer {
+    height: 312px;
+    flex-shrink: 0;
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+
+.dark-bg {
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
+    background: var(--NAVY-BLUE, #2E2F42);
 }
