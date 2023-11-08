@@ -11,18 +11,7 @@ body {
             background: #FFF;
             color: var(--color-secondary-text);
             }
- body li {
-     list-style-type: none;
- }
-.list {
-    list-style: none;
-}
- li a {
-     text-decoration: none;
- }
- .link {
-     text-decoration: none;
- }
+ 
  .logo {
     font-family: Raleway;
     display: inline-flex;
