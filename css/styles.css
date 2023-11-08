@@ -1,12 +1,4 @@
-:root {
-    --primary-bg-color: #ffffff;
-    --secondary-bg-color: #2E2F42;
-    --color-main-text: #2E2F42;
-    --color-secondary-text: #434455;
-    --accent: #4D5AE5;
-    --accent-pressed-state: #404BBF;
-    --color-bg-team: #F4F4FD;
-}
+
 
 body {
     width: 1440px;
@@ -56,7 +48,15 @@ body {
         line-height: 21px;
         letter-spacing: 0.54px;
         text-transform: uppercase;
-     }
+}
+.logo-header-blue:hover,
+.logo-header-blue:focus {
+    color: rgb(110, 136, 73);
+}
+.logo-header:hover,
+.logo-header:focus {
+    color: rgb(110, 136, 73);
+}
 .menu-nav {
     display: inline-flex;
         align-items: flex-start;
@@ -274,6 +274,7 @@ width: 264px;
     height: 112px;
     flex-shrink: 0;
 }
+
             
                         
             
