@@ -21,14 +21,11 @@ body {
   line-height: 1.3125rem;
   letter-spacing: 0.03375rem;
 }
-.logo-header-blue:hover,
-.logo-header-blue:focus {
+.menu-nav .link:hover,
+.menu-nav .link:focus {
   color: rgb(110, 136, 73);
 }
-.logo-header:hover,
-.logo-header:focus {
-  color: rgb(110, 136, 73);
-}
+
 .menu-nav {
 }
 .link {
