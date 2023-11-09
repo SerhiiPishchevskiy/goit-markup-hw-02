@@ -6,11 +6,6 @@ body {
   background: #fff;
   color: var(--color-secondary-text);
 }
-
-li a {
-  text-decoration: none;
-}
-
 .logo {
   font-family: Raleway;
   font-weight: 700;
