@@ -167,7 +167,7 @@ button {
 .content-list {
   display: flex;
   width: 14.5rem;
-  flex-direction: column;
+
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
@@ -182,6 +182,12 @@ button {
 }
 .card-content {
   width: 14.5rem;
+  display: flex;
+  width: 14.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
 }
 .card-personal {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -205,20 +211,27 @@ button {
 .rowy {
   width: 70.5rem;
   height: 26.25rem;
+  display: flex;
 }
 
 .project-card {
-  width: 22.5rem;
-  height: 26.25rem;
   letter-spacing: 0.02em;
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
-  background: var(--WHITE, #fff);
+  background-color: #ffffff;
+  display: flex;
+  padding-bottom: 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-shrink: 0;
 }
 .my-gallery {
-  width: 22.5rem;
-  height: 18.75rem;
-  background: url(<path-to-image>),
-    lightgray -25.026px 0px / 125% 100% no-repeat;
+  display: flex;
+  width: 14.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
 }
 .gallery-text {
   color: var(--SLATE, #434455);
