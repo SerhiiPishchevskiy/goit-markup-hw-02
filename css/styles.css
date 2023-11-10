@@ -36,8 +36,7 @@ body {
   color: #2e2f42;
 }
 .logo-blue {
-  color: #2e2f42;
-  line-height: 1.17;
+  color: #4d5ae5;
 }
 .logo .logo-header:hover,
 .logo .logo-header:focus {
@@ -96,7 +95,7 @@ body {
   text-align: center;
   font-size: 3.5rem;
   font-weight: 700;
-  line-height: 3.75rem;
+  line-height: 1.07;
   letter-spacing: 0.07rem;
   text-align: center;
 }
@@ -105,12 +104,12 @@ body {
   color: var(--WHITE, #fff);
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5rem;
   letter-spacing: 0.04rem;
 }
 button {
+  cursor: pointer;
   display: inline-flex;
   padding: 1rem 2rem;
   align-items: flex-start;
@@ -118,32 +117,37 @@ button {
   background: var(--IRIS, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
-button .button-text :hover {
+.button-text:hover,
+.button-text:focus {
   background-color: #404bbf;
-  cursor: pointer;
 }
 
 .sector-character {
+  display: flex;
+  width: 16.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.character-list {
   width: 70.5rem;
   height: 6.5rem;
   flex-shrink: 0;
   letter-spacing: 0.02em;
-}
-.character-list {
-  width: 16.5rem;
 }
 .character-traits {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 1.25rem;
   font-weight: 500;
   line-height: 1.5rem;
+  color: var(--NAVY-BLUE, #2e2f42);
+  letter-spacing: 0.025rem;
 }
 .character-text {
-  width: 90rem;
-  height: 45.75rem;
-  flex-shrink: 0;
   color: var(--SLATE, #434455);
+  font-size: 1rem;
   line-height: 1.5rem;
+  letter-spacing: 0.02rem;
 }
 .sector-photo {
   width: 90rem;
@@ -155,7 +159,7 @@ button .button-text :hover {
   text-align: center;
   font-size: 2.25rem;
   font-weight: 700;
-  line-height: 2.5rem;
+  line-height: 1.11;
   letter-spacing: 0.045rem;
   text-transform: capitalize;
 }
@@ -171,7 +175,7 @@ button .button-text :hover {
   border-radius: 0rem 0rem 0.25rem 0.25rem;
 }
 .team-card {
-  background: var(--WHITE, #fff);
+  background-color: #ffffff;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -184,6 +188,7 @@ button .button-text :hover {
   font-size: 1.25rem;
   font-weight: 500;
   line-height: 1.5rem;
+  letter-spacing: 0.02em;
 }
 .team-text {
   color: var(--SLATE, #434455);
@@ -222,25 +227,19 @@ button .button-text :hover {
   letter-spacing: 0.02em;
 }
 
-.content-end {
-  font-family: "Raleway", sans-serif;
+.content-footer {
   width: 90rem;
   height: 19.5rem;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  flex-shrink: 0;
   background: var(--NAVY-BLUE, #2e2f42);
-  font-size: 18px;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
 }
 
-.tex-end {
+.footer-text {
   color: var(--CLOUD, #f4f4fd);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
+  letter-spacing: 0.02rem;
 }
 
 .logo-white {
