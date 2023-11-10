@@ -229,6 +229,13 @@ button {
   height: 18.75rem;
   flex-shrink: 0;
 }
+.gallery-name {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.025rem;
+}
 .gallery-text {
   color: var(--SLATE, #434455);
   font-size: 1rem;
