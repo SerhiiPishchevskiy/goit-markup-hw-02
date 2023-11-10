@@ -134,13 +134,13 @@ button {
   height: 6.5rem;
   flex-shrink: 0;
   letter-spacing: 0.02em;
+  border-radius: 0rem 0rem 0.25rem 0.25rem;
 }
 .character-traits {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: #2e2f42;
   font-size: 1.25rem;
   font-weight: 500;
   line-height: 1.5rem;
-  color: var(--NAVY-BLUE, #2e2f42);
   letter-spacing: 0.025rem;
 }
 .character-text {
@@ -152,7 +152,7 @@ button {
 .sector-photo {
   width: 90rem;
   height: 45.75rem;
-  background: var(--CLOUD, #f4f4fd);
+  background: #f4f4fd;
 }
 .name-photo-gallery {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -167,7 +167,6 @@ button {
 .content-list {
   display: flex;
   width: 14.5rem;
-
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
@@ -175,19 +174,19 @@ button {
   border-radius: 0rem 0rem 0.25rem 0.25rem;
 }
 .team-card {
-  background-color: #ffffff;
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  display: inline-flex;
+  padding-bottom: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 .card-content {
-  width: 14.5rem;
-  display: flex;
-  width: 14.5rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 0.5em;
+  background-color: #ffffff;
 }
 .card-personal {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -211,6 +210,7 @@ button {
 .rowy {
   width: 70.5rem;
   height: 26.25rem;
+  flex-shrink: 0;
   display: flex;
 }
 
@@ -222,16 +222,12 @@ button {
   padding-bottom: 0px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 2rem;
   flex-shrink: 0;
 }
 .my-gallery {
-  display: flex;
-  width: 14.5rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
+  width: 22.5rem;
+  height: 18.75rem;
+  flex-shrink: 0;
 }
 .gallery-text {
   color: var(--SLATE, #434455);
@@ -239,7 +235,6 @@ button {
   line-height: 1.5rem;
   letter-spacing: 0.02em;
 }
-
 .content-footer {
   width: 90rem;
   height: 19.5rem;
