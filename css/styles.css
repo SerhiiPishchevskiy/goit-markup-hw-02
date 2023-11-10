@@ -18,24 +18,26 @@ body {
   height: 1.5rem;
   align-items: center;
   flex-shrink: 0;
+  line-height: 1.17;
+  color: #4d5ae5;
+  font-family: Raleway;
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: 0.03375rem;
+  text-transform: uppercase;
 }
 .logo-header {
-  color: var(--NAVY-BLUE, #2e2f42);
   font-family: Raleway;
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.3125rem;
   letter-spacing: 0.03375rem;
   text-transform: uppercase;
+  color: #2e2f42;
 }
 .logo-blue {
-  color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
-  font-size: 1.125rem;
-  font-weight: 700;
-  line-height: 1.3125rem;
-  letter-spacing: 0.03375rem;
-  text-transform: uppercase;
+  color: #2e2f42;
+  line-height: 1.17;
 }
 .logo .logo-header:hover,
 .logo .logo-header:focus {
@@ -57,17 +59,24 @@ body {
   line-height: 1.5rem;
   letter-spacing: 0.02rem;
 }
+.menu-nav .link:hover,
+.menu-nav .link:focus {
+  color: #404bbf;
+}
 
 .contacts-link {
   color: var(--SLATE, #434455);
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
-  letter-spacing: 0.02rem;
+  letter-spacing: 0.02em;
 }
-
 .contact-line {
   background: var(--WHITE, #fff);
+}
+.contact-line .contacts-link:hover,
+.contact-line .contacts-link:focus {
+  color: #404bbf;
 }
 .top-line {
   width: 90rem;
