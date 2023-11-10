@@ -20,17 +20,17 @@ body {
   flex-shrink: 0;
   line-height: 1.17;
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 1.125rem;
   font-weight: 700;
   letter-spacing: 0.03375rem;
   text-transform: uppercase;
 }
 .logo-header {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 1.125rem;
   font-weight: 700;
-  line-height: 1.3125rem;
+  line-height: 1.17;
   letter-spacing: 0.03375rem;
   text-transform: uppercase;
   color: #2e2f42;
@@ -59,8 +59,8 @@ body {
   line-height: 1.5rem;
   letter-spacing: 0.02rem;
 }
-.menu-nav .link:hover,
-.menu-nav .link:focus {
+.link:hover,
+.link:focus {
   color: #404bbf;
 }
 
@@ -74,8 +74,8 @@ body {
 .contact-line {
   background: var(--WHITE, #fff);
 }
-.contact-line .contacts-link:hover,
-.contact-line .contacts-link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
 .top-line {
