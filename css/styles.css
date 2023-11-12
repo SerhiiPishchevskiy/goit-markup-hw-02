@@ -165,7 +165,10 @@ button {
 .portfolio {
   background: #fff;
 }
-.rowy {
+.row-one {
+  flex-shrink: 0;
+}
+.row-two {
   flex-shrink: 0;
 }
 
