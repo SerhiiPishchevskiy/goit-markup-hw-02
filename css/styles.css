@@ -193,6 +193,30 @@ button {
   line-height: 1.5rem;
   letter-spacing: 0.02em;
 }
+.project-card2 {
+  letter-spacing: 0.02em;
+
+  background-color: #ffffff;
+
+  flex-shrink: 0;
+}
+.my-gallery2 {
+  background: var(--WHITE, #fff);
+  flex-shrink: 0;
+}
+.gallery-name2 {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.025rem;
+}
+.gallery-text2 {
+  color: var(--SLATE, #434455);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.02em;
+}
 .content-footer {
   flex-shrink: 0;
   background: var(--NAVY-BLUE, #2e2f42);
