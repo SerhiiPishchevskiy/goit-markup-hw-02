@@ -37,8 +37,7 @@ body {
 .address-contacts {
   font-style: normal;
 }
-.menu-nav {
-}
+
 .link {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 1rem;
@@ -103,8 +102,6 @@ button {
   background-color: #404bbf;
 }
 
-.sector-character {
-}
 .character-list {
   flex-shrink: 0;
   letter-spacing: 0.02em;
