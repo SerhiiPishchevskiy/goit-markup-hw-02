@@ -19,7 +19,7 @@ body {
   color: #4d5ae5;
   text-transform: uppercase;
 }
-.logo-header {
+.logo-blace {
   font-family: "Raleway", sans-serif;
   font-size: 1.125rem;
   font-weight: 700;
@@ -28,12 +28,12 @@ body {
   text-transform: uppercase;
   color: #2e2f42;
 }
-.logo-header-blue {
+.logo-blue {
   color: #4d5ae5;
 }
 
-.logo .logo-header:hover,
-.logo .logo-header:focus {
+.logo .logo-blace:hover,
+.logo .logo-blace:focus {
   color: #404bbf;
 }
 
