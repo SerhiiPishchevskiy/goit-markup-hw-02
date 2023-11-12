@@ -28,6 +28,9 @@ body {
   text-transform: uppercase;
   color: #2e2f42;
 }
+.logo-header-blue {
+  color: #4d5ae5;
+}
 
 .logo .logo-header:hover,
 .logo .logo-header:focus {
@@ -174,6 +177,7 @@ button {
   flex-shrink: 0;
 }
 .my-gallery {
+  background: var(--WHITE, #fff);
   flex-shrink: 0;
 }
 .gallery-name {
